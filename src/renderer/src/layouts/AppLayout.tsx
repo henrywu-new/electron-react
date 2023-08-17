@@ -8,7 +8,7 @@ const AppLayout = ({ children }) => {
       <AppHeader></AppHeader>
       <section className="flex flex-auto overflow-hidden">
         <AppAside />
-        <main className="h-full w-full overflow-auto bg-neutral-800 rounded-tl-[8px]">
+        <main className="h-full w-full overflow-auto bg-[#1b1b1b] rounded-tl-[8px]">
           {children}
         </main>
       </section>
